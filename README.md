@@ -1,6 +1,6 @@
 # Dockerized-Flask-app
 # Platform:
-Windows 10 Home (64-bit)
+Windows 10 Home (64-bit) "\n"
 Docker toolbox
 
 #Steps:
