@@ -2,7 +2,7 @@ import requests
 import json
 import math
 
-appID = "9091474cf868ce9402862c7bdb9ef6f7"
+appID = "<Your API key here>"
 
 def getCityWeather(cityName):
     URL = "http://api.openweathermap.org/data/2.5/forecast?q=" + cityName + "&mode=json&appid=" + appID
