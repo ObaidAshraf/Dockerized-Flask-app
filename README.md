@@ -1,9 +1,9 @@
 # Dockerized-Flask-app
 # Platform:
-Windows 10 Home (64-bit) "\n"
-Docker toolbox
+  Windows 10 Home (64-bit)
+  Docker toolbox
 
-#Steps:
+# Steps:
 1) Create a Flask application with requirements.txt and Dockerfile.
 
 2) Build docker image to verify if the image is working correctly or not. Following are the commands I used to build and test the image. Make sure that you are in the same directory where your project files (python source files, requriements.txt and Dockerfile) are placed. Following are the commands:
@@ -21,4 +21,3 @@ a. docker  login (Login to your docker hub account)
 b. docker tag weather_app<username>/<image_name>:<tag>
 (With the above command, you can tag your pre-built image, in our case the image we just built. Tagging convention is according to docker hub which is mentioned in their Wiki)
 c. docker push <username>/<image_name>
-
