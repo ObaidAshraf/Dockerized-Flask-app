@@ -30,8 +30,10 @@ docker  login (Login to your docker hub account)
 ```
 ```
 docker tag weather_app<username>/<image_name>:<tag>
-(With the above command, you can tag your pre-built image, in our case the image we just built. Tagging convention is according to docker hub which is mentioned in their Wiki)
+(With the above command, you can tag your pre-built image, in our case the image we just built. 
+Tagging convention is according to docker hub which is mentioned in their Wiki)
 ```
+Now the final command to push image to docker hub.
 ```
 docker push <username>/<image_name>
 ```
