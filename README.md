@@ -1,7 +1,7 @@
-# Dockerized-Flask-app
-# Platform:
-  Windows 10 Home (64-bit)
-  Docker toolbox
+## Dockerized-Flask-app
+### Platform:
+  * Windows 10 Home (64-bit)
+  * Docker toolbox
 
 # Steps:
 1) Create a Flask application with requirements.txt and Dockerfile.
